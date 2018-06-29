@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 
 
 // Routing
-var articlesController = require("./server/controllers/article-controller");
+var articlesController = require("./notserver/controllers/article-controller");
 var router = new express.Router();
 // Define any API routes first
 // Get saved articles
